@@ -32,7 +32,7 @@ password: $('#userPassword').val()
 There are two errors that can occur:
 
 * **409**, which means that there is a duplicate user name
-* **400**, which means that one or more fields are mepty
+* **400**, which means that one or more fields are empty
 
 All error messages come in a **JSON-Object** meaning there is different parts to the message:
 
